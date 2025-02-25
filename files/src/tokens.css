@@ -7,7 +7,11 @@
     --color-secondary: white;
     --color-footer-background: black;
     --color-footer-text: white;
-  
+    --color-background: white;
+    --color-text: black;
+    --color-button: black;
+    --color-button-text: white;
+
     /* Spacing tokens */
     --spacing-small: 1em;
     --spacing-medium: 2em;
@@ -29,8 +33,12 @@
 
   body.dark-mode {
     --color-background-header: #101070;
-    --color-background: black;
+    --color-footer-background: white;
+    --color-footer-text: black;
+    --color-background: #141414;
     --color-text: white;
     --color-link: #ffa576;
     --color-border: var(--color-link);
-}
+    --color-button: lightgrey;
+    --color-button-text: black;
+  }
